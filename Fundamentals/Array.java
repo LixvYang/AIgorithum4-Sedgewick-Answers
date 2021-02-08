@@ -9,7 +9,7 @@ public class Array {
     private int count;
 
     //构造数组
-    //构造方法，定义数组大小
+    //构造方法，定义数组大小    
     public Array(int capacity){
         this.data = new int[capacity];
         this.n = capacity;
