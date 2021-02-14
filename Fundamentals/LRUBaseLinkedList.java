@@ -56,8 +56,8 @@ public class LRUBaseLinkedList<T> {
         }
         return null;
     }
-    //删除尾节点
-    private void deleteElemAtEnd(){
+    // 删除尾节点
+    private void    (){
         SNode ptr = headNode;
         //空链表直接返回
         if(pre.getNext()==null){
